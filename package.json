@@ -1,0 +1,17 @@
+{
+  "name": "pandastore-api",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "knex": "^0.15.0",
+    "ow": "^0.6.0",
+    "sqlite3": "^4.0.1",
+    "uuid4": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node server.js"
+  }
+}
